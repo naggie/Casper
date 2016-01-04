@@ -948,6 +948,15 @@ body:not(.post-template) .post-title {
     text-decoration: none;
 }
 
+.post-image {
+    height:100px;
+    width:710px;
+    background-size:cover;
+    background-position:center;
+    margin:10px 0;
+    opacity:0.6;
+}
+
 .post-excerpt p {
     margin: 0;
     font-size: 0.9em;
