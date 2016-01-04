@@ -509,6 +509,7 @@ body.nav-opened .site-wrapper {
     background: #222 no-repeat center center;
     background-size: cover;
     overflow: hidden;
+    border-bottom:40px solid #EBF2F6;
 }
 
 .main-header .inner {
@@ -1045,6 +1046,13 @@ body:not(.post-template) .post-title {
     display: block;
     font-size: 1.4rem;
     line-height: 1.5em;
+}
+
+main.content {
+    border-left: 1px solid #EBF2F6;
+    border-right: 1px solid #EBF2F6;
+    margin:auto;
+    padding-top:80px;
 }
 
 
@@ -2007,6 +2015,10 @@ body:not(.post-template) .post-title {
 
     .read-next .post {
         width: 100%;
+    }
+
+    main.content {
+        border:0;
     }
 
 }
